@@ -23,7 +23,7 @@ class JenkinspiplineApplicationTests {
         this.mockMvc.perform(MockMvcRequestBuilders.get("/"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello Jenkins"));
+                .andExpect(content().string("Hello NIE Jenkins"));
     }
 
     @Test
